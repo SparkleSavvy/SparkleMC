@@ -1,10 +1,20 @@
-# SparkleMC
+<div align="center">
+  <h1>✨ SparkleMC</h1>
+  <p><strong>A Minecraft launcher built with Electron, React, and Material UI</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/version-0.1.0-6750A4?style=for-the-badge" alt="Version">
+    <img src="https://img.shields.io/badge/Electron-35-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron">
+    <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+    <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/MUI-7-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="MUI">
+  </p>
+</div>
 
-A Minecraft launcher built with Electron, React, and Material UI.
+---
 
-> **License:** This software is provided under a custom EULA. Redistribution, modification, or reverse engineering is prohibited without explicit permission from the author.
+> **License:** This software is provided under a custom **EULA**. Redistribution, modification, or reverse engineering is prohibited without explicit permission from the author. See the [license](#license) section for details.
 
-## Features
+## ✨ Features
 
 - **Multiple account types** — Microsoft OAuth, Ely.by OAuth, and offline mode
 - **authlib-injector** — automatic download and injection for Ely.by authentication
@@ -15,7 +25,7 @@ A Minecraft launcher built with Electron, React, and Material UI.
 - **Material UI 3** — expressive dark/light theme with modern design
 - **Console output** — real-time game log viewer with fade-in animations
 
-## Tech Stack
+## 🛠 Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -24,7 +34,7 @@ A Minecraft launcher built with Electron, React, and Material UI.
 | Bundler | electron-vite, Vite 6 |
 | Language | TypeScript 5 |
 
-## Development
+## 🚀 Development
 
 ```bash
 # Install dependencies
@@ -46,7 +56,7 @@ npm run build:win
 npm run build:linux
 ```
 
-## Account Setup
+## 🔐 Account Setup
 
 ### Microsoft
 Click the **Microsoft** button in Accounts — opens a browser window for OAuth login.
@@ -57,6 +67,17 @@ Click the **Ely.by** button — opens the Ely.by OAuth page.
 ### Offline
 Click the **Offline** button — enter any username for local/unlicensed play. Works on servers with `online-mode=false`.
 
-## Author
+## 👤 Author
 
 **SparkleSavvy** — [GitHub](https://github.com/SparkleSavvy)
+
+## ⚖️ License
+
+This project is **not open source**. Use of this software is governed by a **EULA** (End User License Agreement). All rights are reserved by the author.
+
+You may not:
+- Redistribute or sell this software
+- Modify, decompile, or reverse engineer the code
+- Use the code or assets in other projects
+
+For inquiries, open an issue on [GitHub](https://github.com/SparkleSavvy/SparkleMC/issues).
